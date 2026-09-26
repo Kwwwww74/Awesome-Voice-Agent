@@ -195,7 +195,7 @@ If this repository is useful for your research, please cite it as:
 
 ## 🙏 Acknowledgement
 
-- Maintainer: [Kevin Luo](https://kwwwww74.github.io)
+- Maintainer: [Kaiwen Luo](https://kwwwww74.github.io), [Yang Xiao](https://swagshaw.github.io)
 - The repository structure is inspired by [Awesome Trustworthy Audio-LLMs](https://github.com/Kwwwww74/Awesome-Trustworthy-AudioLLMs).
 - Thanks to all researchers, engineers, and contributors advancing voice-agent research.
 
