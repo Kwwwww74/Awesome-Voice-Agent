@@ -207,7 +207,6 @@ If this repository is useful for your research, please cite it as:
 ## Star History
 
 <details>
-<summary>View the star history chart</summary>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Kwwwww74/Awesome-Voice-Agent&type=Date)](https://star-history.com/#Kwwwww74/Awesome-Voice-Agent&Date)
 
