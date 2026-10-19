@@ -1,45 +1,76 @@
-# 🎙️ Awesome Voice Agents
+<p align="center">
+  <img src="./assets/voice-agents-banner.svg" alt="Awesome Voice Agents — a capability-first map of voice-agent research, from L0 pre-LLM systems to L4 long-horizon agents" width="100%">
+</p>
+
+<h1 align="center">Awesome Voice Agents</h1>
+
+<p align="center">
+  From spoken interaction to <strong>reasoning, tool use, and long-horizon action</strong>.
+</p>
 
 <p align="center">
   <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <a href="https://github.com/Kwwwww74/Awesome-Voice-Agent/stargazers"><img src="https://img.shields.io/github/stars/Kwwwww74/Awesome-Voice-Agent?style=flat-square&logo=github" alt="GitHub stars"></a>
-  <a href="https://github.com/Kwwwww74/Awesome-Voice-Agent/network/members"><img src="https://img.shields.io/github/forks/Kwwwww74/Awesome-Voice-Agent?style=flat-square&logo=github" alt="GitHub forks"></a>
-  <a href="https://github.com/Kwwwww74/Awesome-Voice-Agent/issues"><img src="https://img.shields.io/github/issues/Kwwwww74/Awesome-Voice-Agent?style=flat-square&logo=github" alt="GitHub issues"></a>
-  <a href="https://github.com/Kwwwww74/Awesome-Voice-Agent/commits/main"><img src="https://img.shields.io/github/last-commit/Kwwwww74/Awesome-Voice-Agent?style=flat-square&logo=github" alt="GitHub last commit"></a>
+  <a href="https://github.com/Kwwwww74/Awesome-Voice-Agent/stargazers"><img src="https://img.shields.io/github/stars/Kwwwww74/Awesome-Voice-Agent?style=flat-square&amp;logo=github&amp;color=7c6fdb" alt="GitHub stars"></a>
+  <a href="https://github.com/Kwwwww74/Awesome-Voice-Agent/commits/main"><img src="https://img.shields.io/github/last-commit/Kwwwww74/Awesome-Voice-Agent?style=flat-square&amp;color=238c86" alt="GitHub last commit"></a>
+  <a href="#survey"><img src="https://img.shields.io/badge/Survey-Coming%20Soon-7c6fdb?style=flat-square" alt="Survey coming soon"></a>
 </p>
 
 <p align="center">
-  <em>A curated and continuously updated collection of voice-agent research, organized by demonstrated agentic capability.</em>
+  <a href="#research-collections">Browse papers</a> ·
+  <a href="#capability-taxonomy">Explore the taxonomy</a> ·
+  <a href="#how-to-contribute">Contribute</a> ·
+  <a href="mailto:kaiwenluo74@gmail.com?subject=Voice%20Agent%20Paper%20Recommendation">Recommend a paper</a>
 </p>
 
-Voice interfaces are evolving from pre-LLM spoken-dialogue systems into agents that can reason, use external tools, and complete long-horizon tasks. This repository tracks that progression through a five-level taxonomy:
+<a id="survey"></a>
 
-> **L0 Pre-LLM Systems → L1 Direct-Response Models → L2 Reasoning Models → L3 Tool-Using Agents → L4 Long-Horizon Agents**
+## Survey · Coming Soon
 
-The collection currently contains **137 papers, systems, and documented configurations**.
+> [!IMPORTANT]
+> **Our survey on voice agents is coming soon!**
+>
+> We will share the paper and updates in this repository. Stay tuned!
+>
+> **Have a relevant paper to share?** We welcome recommendations, including your own work. Email [kaiwenluo74@gmail.com](mailto:kaiwenluo74@gmail.com?subject=Voice%20Agent%20Paper%20Recommendation) with the **paper title, link, and a brief description of its relevance**.
 
-> [!NOTE]
-> Levels describe the **highest capability demonstrated by a concrete system or evaluated configuration**. Natural speech, low latency, full-duplex interaction, multimodality, or a long conversation does not by itself establish a higher level.
+<a id="research-collections"></a>
 
-**Last updated:** September 26, 2026
+## Research Collections
+
+A curated collection of **137 papers, systems, and documented configurations**, organized into **five capability levels**.
+
+| Level | Collection | Scope | Entries |
+|---|---|---|---:|
+| **L0** | [☎️ Pre-LLM Voice Systems](./papers/L0.md) | Rule-based, statistical, and specialized pre-LLM spoken systems | **27** |
+| **L1** | [🎙️ Direct-Response Voice Models](./papers/L1.md) | LLM-era spoken interaction without demonstrated reasoning or tool use | **47** |
+| **L2** | [🧠 Reasoning Voice Models](./papers/L2.md) | Explicit, latent, incremental, and duplex speech reasoning | **17** |
+| **L3** | [🛠️ Tool-Using Voice Agents](./papers/L3.md) | Closed-loop retrieval, function calling, APIs, and environment actions | **43** |
+| **L4** | [🧭 Long-Horizon Voice Agents](./papers/L4.md) | Persistent goals, multi-step execution, checking, repair, and replanning | **3** |
+|  | **Total** |  | **137** |
+
+Each collection is grouped by publication year and links directly to the corresponding paper, official documentation, or project page.
+
+<details>
+<summary><strong>On this page</strong></summary>
+
+- [Survey · Coming Soon](#survey)
+- [Research Collections](#research-collections)
+- [Introduction](#introduction)
+- [What Is a Voice Agent?](#what-is-a-voice-agent)
+- [Capability Taxonomy](#capability-taxonomy)
+- [Classification Rules](#classification-rules)
+- [How to Contribute](#how-to-contribute)
+- [Citation](#citation)
+- [Star History](#star-history)
+- [Acknowledgement](#acknowledgement)
+
+</details>
 
 ---
 
-## 📌 Table of Contents
+<a id="introduction"></a>
 
-- [Introduction](#-introduction)
-- [What Is a Voice Agent?](#-what-is-a-voice-agent)
-- [Capability Taxonomy](#-capability-taxonomy)
-- [Research Collections](#-research-collections)
-- [Classification Rules](#-classification-rules)
-- [How to Contribute](#-how-to-contribute)
-- [Citation](#-citation)
-- [Star History](#-star-history)
-- [Acknowledgement](#-acknowledgement)
-
----
-
-## 🌍 Introduction
+## Introduction
 
 Voice agents combine speech interaction with the ability to make decisions and advance a user goal. Earlier systems relied on rules, task trees, statistical dialogue policies, and specialized neural components. Recent systems increasingly use large language models to reason over spoken input, invoke tools, maintain task state, and act in external environments.
 
@@ -52,9 +83,13 @@ This repository provides:
 
 The taxonomy is intentionally **architecture-agnostic**. A voice agent may use a cascaded ASR–LLM–TTS pipeline, an end-to-end speech language model, or a hybrid design.
 
+**Collection last updated:** September 26, 2026
+
 ---
 
-## 🗣️ What Is a Voice Agent?
+<a id="what-is-a-voice-agent"></a>
+
+## What Is a Voice Agent?
 
 We use the following working definition:
 
@@ -74,7 +109,12 @@ The L0–L4 scale measures **agentic capability**, not overall system quality. T
 
 ---
 
-## 🧭 Capability Taxonomy
+<a id="capability-taxonomy"></a>
+
+## Capability Taxonomy
+
+> [!NOTE]
+> Levels describe the **highest capability demonstrated by a concrete system or evaluated configuration**. Natural speech, low latency, full-duplex interaction, multimodality, or a long conversation does not by itself establish a higher level.
 
 | Level | Category | Operational criterion | Insufficient evidence |
 |---|---|---|---|
@@ -106,22 +146,9 @@ L0 is a historical architecture category. L1–L4 describe the highest demonstra
 
 ---
 
-## 📚 Research Collections
+<a id="classification-rules"></a>
 
-| Level | Collection | Scope | Entries |
-|---|---|---|---:|
-| **L0** | [☎️ Pre-LLM Voice Systems](./papers/L0.md) | Rule-based, statistical, and specialized pre-LLM spoken systems | **27** |
-| **L1** | [🎙️ Direct-Response Voice Models](./papers/L1.md) | LLM-era spoken interaction without demonstrated reasoning or tool use | **47** |
-| **L2** | [🧠 Reasoning Voice Models](./papers/L2.md) | Explicit, latent, incremental, and duplex speech reasoning | **17** |
-| **L3** | [🛠️ Tool-Using Voice Agents](./papers/L3.md) | Closed-loop retrieval, function calling, APIs, and environment actions | **43** |
-| **L4** | [🧭 Long-Horizon Voice Agents](./papers/L4.md) | Persistent goals, multi-step execution, checking, repair, and replanning | **3** |
-|  | **Total** |  | **137** |
-
-Each collection is grouped by publication year and links directly to the corresponding paper, official documentation, or project page.
-
----
-
-## ✅ Classification Rules
+## Classification Rules
 
 1. **Classify the concrete configuration.** A model family or platform may appear at different levels when different configurations expose different capabilities.
 2. **Assign the highest demonstrated level.** Marketing claims or architectural potential are not treated as demonstrated capability.
@@ -145,33 +172,21 @@ Is the central controller a pre-LLM architecture?
 
 ---
 
-## 🤝 How to Contribute
+<a id="how-to-contribute"></a>
 
-Contributions from researchers and practitioners are welcome. Please open an [issue](https://github.com/Kwwwww74/Awesome-Voice-Agent/issues) or submit a pull request.
+## How to Contribute
 
-For a new entry, please provide:
+Help us keep the collection useful and up to date. Recommend a paper by [email](mailto:kaiwenluo74@gmail.com?subject=Voice%20Agent%20Paper%20Recommendation), open an [issue](https://github.com/Kwwwww74/Awesome-Voice-Agent/issues), or submit a pull request.
 
-```text
-Title or system name:
-Year:
-Paper, documentation, or project URL:
-Suggested level:
-Evidence supporting the suggested level:
-```
+For email recommendations, please include the **paper title, link, and a brief description of its relevance to voice agents**. You are welcome to share your own work.
 
-Before submitting, please check that:
-
-- speech is part of the interactive decision loop;
-- the entry is a system or concrete configuration rather than only a component or benchmark;
-- the suggested level follows the operational criteria above;
-- the linked source provides evidence for the claimed capability;
-- the entry is not already included under another name.
-
-You may also contact the maintainer at **kaiwenluo74@gmail.com**.
+For questions about the collection or the upcoming survey, contact [kaiwenluo74@gmail.com](mailto:kaiwenluo74@gmail.com).
 
 ---
 
-## 📝 Citation
+<a id="citation"></a>
+
+## Citation
 
 If this repository is useful for your research, please cite it as:
 
@@ -187,15 +202,24 @@ If this repository is useful for your research, please cite it as:
 
 ---
 
-## 🌟 Star History
+<a id="star-history"></a>
+
+## Star History
+
+<details>
+<summary>View the star history chart</summary>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Kwwwww74/Awesome-Voice-Agent&type=Date)](https://star-history.com/#Kwwwww74/Awesome-Voice-Agent&Date)
 
+</details>
+
 ---
 
-## 🙏 Acknowledgement
+<a id="acknowledgement"></a>
 
-- Maintainer: [Kaiwen Luo](https://kwwwww74.github.io), [Yang Xiao](https://swagshaw.github.io)
+## Acknowledgement
+
+- Maintainer: [Kaiwen Luo](https://kwwwww74.github.io), [Yang Xiao](https://swagshaw.github.io), [Tianyu Shao](https://scholar.google.com/citations?user=9acFMiUAAAAJ&hl=en)
 - The repository structure is inspired by [Awesome Trustworthy Audio-LLMs](https://github.com/Kwwwww74/Awesome-Trustworthy-AudioLLMs).
 - Thanks to all researchers, engineers, and contributors advancing voice-agent research.
 
