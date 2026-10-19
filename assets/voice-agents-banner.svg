@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title description">
+  <title id="title">Awesome Voice Agents</title>
+  <desc id="description">From voice to agency. A research collection spanning L0 pre-LLM systems, L1 direct response, L2 reasoning, L3 tool use, and L4 long-horizon agents.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0b1224"/>
+      <stop offset="1" stop-color="#17233b"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop stop-color="#8576f3" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#8576f3" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#73e3d0"/>
+      <stop offset=".5" stop-color="#b3b1ff"/>
+      <stop offset="1" stop-color="#a58bfa"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#afc8ee" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="350" rx="20" fill="url(#background)"/>
+  <rect width="1200" height="350" rx="20" fill="url(#grid)"/>
+  <ellipse cx="1000" cy="110" rx="300" ry="240" fill="url(#aura)"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <circle cx="49" cy="45" r="4" fill="#73e3d0"/>
+    <text x="64" y="49" fill="#a6b5cb" font-size="12" font-weight="600" letter-spacing="2.6">AWESOME VOICE AGENTS</text>
+    <text x="44" y="127" fill="#f1f5ff" font-size="64" font-weight="700" letter-spacing="-2.4">From voice to agency.</text>
+    <text x="47" y="166" fill="#b7c5db" font-size="18">A capability-first map of voice-agent research.</text>
+    <g fill="none" stroke="#91a5c9" stroke-opacity=".13">
+      <circle cx="1000" cy="116" r="78"/>
+      <circle cx="1000" cy="116" r="104"/>
+      <path d="M857 116h286"/>
+    </g>
+    <g fill="none" stroke="url(#signal)" stroke-width="6" stroke-linecap="round">
+      <path d="M880 111v10 M900 98v36 M920 82v68 M940 98v36 M960 66v100 M980 88v56 M1000 47v138 M1020 72v88 M1040 91v50 M1060 75v82 M1080 94v44 M1100 104v24 M1120 112v8"/>
+    </g>
+    <path d="M48 215h1104" stroke="#8ca8d1" stroke-opacity=".16"/>
+    <path d="M48 276h1104" stroke="#52668c" stroke-opacity=".6"/>
+    <g fill="#121f35" stroke="#33435c">
+      <rect x="48" y="244" width="208" height="64" rx="10"/>
+      <rect x="272" y="244" width="208" height="64" rx="10"/>
+      <rect x="496" y="244" width="208" height="64" rx="10"/>
+      <rect x="720" y="244" width="208" height="64" rx="10"/>
+      <rect x="944" y="244" width="208" height="64" rx="10"/>
+    </g>
+    <g font-size="11" font-weight="700" letter-spacing="1.5">
+      <text x="64" y="266" fill="#a6b5cb">L0</text>
+      <text x="288" y="266" fill="#73e3d0">L1</text>
+      <text x="512" y="266" fill="#8bd8e9">L2</text>
+      <text x="736" y="266" fill="#b3b1ff">L3</text>
+      <text x="960" y="266" fill="#c5a8ff">L4</text>
+    </g>
+    <g fill="#e8edf7" font-size="16" font-weight="500">
+      <text x="64" y="290">Pre-LLM systems</text>
+      <text x="288" y="290">Direct response</text>
+      <text x="512" y="290">Reasoning</text>
+      <text x="736" y="290">Tool use</text>
+      <text x="960" y="290">Long-horizon agents</text>
+    </g>
+  </g>
+</svg>
